@@ -15,7 +15,7 @@ import java.util.HashMap;
 @Configuration
 public class CurrencyList {
 
-    public HashMap<String, Currency> getCurrencyHashMap(String date) {
+    public HashMap<String, Currency> getCurrencyHashMap() {
 
         String xmlPath = "http://www.tcmb.gov.tr/kurlar/today.xml";
 
