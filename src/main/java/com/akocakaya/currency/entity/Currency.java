@@ -3,7 +3,6 @@ package com.akocakaya.currency.entity;
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
-import java.text.DateFormat;
 
 @XmlRootElement(name = "Currency")
 public class Currency {
@@ -19,5 +18,13 @@ public class Currency {
 
     public String getCurrencyCode() {
         return currencyCode;
+    }
+
+    public String getCurrencyName() {
+        return currencyName;
+    }
+
+    public String getValue() {
+        return value;
     }
 }
