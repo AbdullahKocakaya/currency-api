@@ -1,6 +1,7 @@
 package com.akocakaya.currency.boundary;
 
 import com.akocakaya.currency.control.CurrencyController;
+import com.akocakaya.currency.control.DateFormatter;
 import com.akocakaya.currency.entity.Currency;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,6 +22,9 @@ public class CurrencyService {
     @Inject
     CurrencyController currencyController;
 
+    @Inject
+    DateFormatter dateFormatter;
+
     @RequestMapping(value = "/getTodayCurrencies")
     public List<Currency> getTodayCurrencies() {
         return currencyController.getTodayCurrencies();
@@ -33,30 +37,14 @@ public class CurrencyService {
 
     @RequestMapping(value = "/getCurrencies/{date}")
     public List<Currency> getCurrencies(@PathVariable String date) {
-        DateFormat dateFormat = new SimpleDateFormat("ddMMyy");
-        Date date1 = null;
-        try {
-            date1 = dateFormat.parse(date);
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyyMM/ddMMyyyy");
-        String urlDate = simpleDateFormat.format(date1);
+        String urlDate = dateFormatter.dateFormatter(date);
 
         return currencyController.getCurrencies(urlDate);
     }
 
     @RequestMapping(value = "/getCurrency/{date}")
     public Currency getCurrency(@PathVariable String date, @RequestParam(value = "currencyCode") String currencyCode) {
-        DateFormat dateFormat = new SimpleDateFormat("ddMMyy");
-        Date date1 = null;
-        try {
-            date1 = dateFormat.parse(date);
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyyMM/ddMMyyyy");
-        String urlDate = simpleDateFormat.format(date1);
+        String urlDate = dateFormatter.dateFormatter(date);
 
         return currencyController.getCurrency(currencyCode, urlDate);
     }
