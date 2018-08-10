@@ -17,4 +17,8 @@ public class CurrencyController {
     public List<Currency> getCurrencies() {
         return new ArrayList<>(currencyList.getCurrencyHashMap().values());
     }
+
+    public Currency getCurrency(String currencyCode) {
+        return currencyList.getCurrencyHashMap().get(currencyCode);
+    }
 }
