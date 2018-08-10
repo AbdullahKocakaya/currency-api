@@ -10,8 +10,8 @@ import java.util.Date;
 @XmlRootElement(name = "Currency")
 public class Currency {
 
-    DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd");
-    Date today = new Date();
+    private DateFormat dateFormat = new SimpleDateFormat("yyyy-dd-MM");
+    private Date today = new Date();
 
     @XmlAttribute(name = "CurrencyCode")
     private String currencyCode;

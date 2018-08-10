@@ -16,10 +16,10 @@ import java.util.List;
 public class CurrencyService {
 
     @Inject
-    CurrencyController currencyController;
+    private CurrencyController currencyController;
 
     @Inject
-    DateFormatter dateFormatter;
+    private DateFormatter dateFormatter;
 
     @RequestMapping(value = "/getTodayCurrencies")
     public List<Currency> getTodayCurrencies() {

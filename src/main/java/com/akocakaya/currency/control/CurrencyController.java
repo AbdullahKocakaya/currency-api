@@ -12,7 +12,7 @@ import java.util.List;
 public class CurrencyController {
 
     @Inject
-    CurrencyList currencyList;
+    private CurrencyList currencyList;
 
     public List<Currency> getTodayCurrencies() {
         return new ArrayList<>(currencyList.getCurrencyHashMap("today").values());
