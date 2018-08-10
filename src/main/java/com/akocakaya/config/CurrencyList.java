@@ -15,9 +15,9 @@ import java.util.HashMap;
 @Configuration
 public class CurrencyList {
 
-    public HashMap<String, Currency> getCurrencyHashMap() {
+    public HashMap<String, Currency> getCurrencyHashMap(String date) {
 
-        String xmlPath = "http://www.tcmb.gov.tr/kurlar/today.xml";
+        String xmlPath = "http://www.tcmb.gov.tr/kurlar/" + date +".xml";
 
         try {
             JAXBContext jaxbContext = JAXBContext.newInstance(TarihDate.class);
