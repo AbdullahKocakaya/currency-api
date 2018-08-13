@@ -33,15 +33,11 @@ public class CurrencyService {
 
     @RequestMapping(value = "/getCurrencies/{date}")
     public List<Currency> getCurrencies(@PathVariable String date) {
-        String urlDate = dateFormatter.dateFormatter(date);
-
-        return currencyController.getCurrencies(urlDate);
+        return currencyController.getCurrencies(dateFormatter.dateFormatter(date));
     }
 
     @RequestMapping(value = "/getCurrency/{date}")
     public Currency getCurrency(@PathVariable String date, @RequestParam(value = "currencyCode") String currencyCode) {
-        String urlDate = dateFormatter.dateFormatter(date);
-
-        return currencyController.getCurrency(currencyCode, urlDate);
+        return currencyController.getCurrency(currencyCode, dateFormatter.dateFormatter(date));
     }
 }
