@@ -20,7 +20,16 @@ public class Currency {
     private String currencyName;
 
     @XmlElement(name = "ForexBuying")
-    private String value;
+    private String forexBuying;
+
+    @XmlElement(name = "ForexSelling")
+    private String forexSelling;
+
+    @XmlElement(name = "BanknoteBuying")
+    private String banknoteBuying;
+
+    @XmlElement(name = "BanknoteSelling")
+    private String banknoteSelling;
 
     @XmlElement
     private String date = dateFormat.format(today);
@@ -29,12 +38,24 @@ public class Currency {
         return currencyCode;
     }
 
-    public String getCurrencyName() {
-        return currencyName;
+    public String getForexBuying() {
+        return forexBuying;
     }
 
-    public String getValue() {
-        return value;
+    public String getForexSelling() {
+        return forexSelling;
+    }
+
+    public String getBanknoteBuying() {
+        return banknoteBuying;
+    }
+
+    public String getBanknoteSelling() {
+        return banknoteSelling;
+    }
+
+    public String getCurrencyName() {
+        return currencyName;
     }
 
     public String getDate() {

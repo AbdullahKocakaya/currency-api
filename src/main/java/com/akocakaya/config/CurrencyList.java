@@ -28,9 +28,8 @@ public class CurrencyList {
 
             HashMap<String, Currency> currencyHashMap = new HashMap<>();
 
-            for (int i = 0; i < tarihDate.getCurrencies().size(); i++) {
+            for (int i = 0; i < tarihDate.getCurrencies().size(); i++)
                 currencyHashMap.put(tarihDate.getCurrencies().get(i).getCurrencyCode(), tarihDate.getCurrencies().get(i));
-            }
 
             return currencyHashMap;
 
