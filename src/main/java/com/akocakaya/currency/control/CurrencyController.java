@@ -14,14 +14,6 @@ public class CurrencyController {
     @Inject
     private CurrencyList currencyList;
 
-    public List<Currency> getTodayCurrencies() {
-        return new ArrayList<>(currencyList.getCurrencyHashMap("today").values());
-    }
-
-    public Currency getTodayCurrency(String currencyCode) {
-        return currencyList.getCurrencyHashMap("today").get(currencyCode);
-    }
-
     public Currency getCurrency(String currencyCode, String date) {
         return currencyList.getCurrencyHashMap(date).get(currencyCode);
     }

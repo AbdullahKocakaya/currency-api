@@ -21,16 +21,6 @@ public class CurrencyService {
     @Inject
     private DateFormatter dateFormatter;
 
-    @RequestMapping(value = "/getTodayCurrencies")
-    public List<Currency> getTodayCurrencies() {
-        return currencyController.getTodayCurrencies();
-    }
-
-    @RequestMapping(value = "/getTodayCurrency")
-    public Currency getTodayCurrency(@RequestParam(value = "currencyCode") String currencyCode) {
-        return currencyController.getTodayCurrency(currencyCode);
-    }
-
     @RequestMapping(value = "/getCurrencies/{date}")
     public List<Currency> getCurrencies(@PathVariable String date) {
         return currencyController.getCurrencies(dateFormatter.dateFormatter(date));
