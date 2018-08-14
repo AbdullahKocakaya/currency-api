@@ -3,15 +3,9 @@ package com.akocakaya.currency.entity;
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 @XmlRootElement(name = "Currency")
 public class Currency {
-
-    private DateFormat dateFormat = new SimpleDateFormat("yyyy-dd-MM");
-    private Date today = new Date();
 
     @XmlAttribute(name = "CurrencyCode")
     private String currencyCode;
@@ -30,9 +24,6 @@ public class Currency {
 
     @XmlElement(name = "BanknoteSelling")
     private String banknoteSelling;
-
-    @XmlElement
-    private String date = dateFormat.format(today);
 
     public String getCurrencyCode() {
         return currencyCode;
@@ -56,9 +47,5 @@ public class Currency {
 
     public String getCurrencyName() {
         return currencyName;
-    }
-
-    public String getDate() {
-        return date;
     }
 }
