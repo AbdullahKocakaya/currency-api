@@ -48,4 +48,28 @@ public class Currency {
     public String getCurrencyName() {
         return currencyName;
     }
+
+    public void setCurrencyCode(String currencyCode) {
+        this.currencyCode = currencyCode;
+    }
+
+    public void setCurrencyName(String currencyName) {
+        this.currencyName = currencyName;
+    }
+
+    public void setForexBuying(String forexBuying) {
+        this.forexBuying = forexBuying;
+    }
+
+    public void setForexSelling(String forexSelling) {
+        this.forexSelling = forexSelling;
+    }
+
+    public void setBanknoteBuying(String banknoteBuying) {
+        this.banknoteBuying = banknoteBuying;
+    }
+
+    public void setBanknoteSelling(String banknoteSelling) {
+        this.banknoteSelling = banknoteSelling;
+    }
 }
