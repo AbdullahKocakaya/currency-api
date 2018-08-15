@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d212f5f-5f8b-4805-ad73-b1ad0639a9a8" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/akocakaya/currency/boundary/CurrencyControllerTest.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/currencyapi.iml" afterPath="$PROJECT_DIR$/currencyapi.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/akocakaya/currency/boundary/CurrencyService.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/akocakaya/currency/control/CurrencyController.java" afterPath="$PROJECT_DIR$/src/main/java/com/akocakaya/currency/control/CurrencyService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/akocakaya/currency/entity/Currency.java" afterPath="$PROJECT_DIR$/src/main/java/com/akocakaya/currency/entity/Currency.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/akocakaya/currency/entity/TarihDate.java" afterPath="$PROJECT_DIR$/src/main/java/com/akocakaya/currency/entity/TarihDate.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/akocakaya/currency/boundary/CurrencyServiceTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/akocakaya/currency/boundary/CurrencyServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/akocakaya/currency/boundary/CurrencyServiceTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -71,18 +63,18 @@
       <file leaf-file-name="CurrencyList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/akocakaya/config/CurrencyList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
+            <state relative-caret-position="459">
               <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CurrencyControllerTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/akocakaya/currency/boundary/CurrencyControllerTest.java">
+      <file leaf-file-name="CurrencyServiceTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/akocakaya/currency/boundary/CurrencyServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+            <state relative-caret-position="438">
+              <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,18 +97,18 @@
       <file leaf-file-name="CurrencyService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/akocakaya/currency/control/CurrencyService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+            <state relative-caret-position="85">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CurrencyController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CurrencyController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/akocakaya/currency/boundary/CurrencyController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+            <state relative-caret-position="408">
+              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -155,15 +147,15 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/akocakaya/currency/entity/Currency.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/akocakaya/currency/entity/TarihDate.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/akocakaya/currency/boundary/CurrencyServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/akocakaya/currency/control/CurrencyControllerr.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/akocakaya/currency/boundary/CurrencyControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/akocakaya/currency/control/DateFormatter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/akocakaya/currency/control/CurrencyController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/akocakaya/currency/boundary/CurrencyController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/akocakaya/currency/boundary/DateFormatter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/akocakaya/currency/boundary/CurrencyService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/akocakaya/currency/control/CurrencyService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/akocakaya/currency/boundary/CurrencyController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/akocakaya/currency/boundary/CurrencyServiceTest.java" />
       </list>
     </option>
   </component>
@@ -412,7 +404,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CurrencyControllerTest.should_return_currency">
+  <component name="RunManager" selected="JUnit.CurrencyServiceTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -433,18 +425,18 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="CurrencyControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CurrencyServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.akocakaya.currency.boundary.*" />
+          <option name="PATTERN" value="com.akocakaya.currency.boundary.CurrencyController" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="currencyapi" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.akocakaya.currency.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.akocakaya.currency.boundary.CurrencyControllerTest" />
+      <option name="PACKAGE_NAME" value="com.akocakaya.currency.boundary" />
+      <option name="MAIN_CLASS_NAME" value="com.akocakaya.currency.boundary.CurrencyServiceTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -458,18 +450,18 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="CurrencyControllerTest.is_connection_OK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CurrencyServiceTest.is_connection_OK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.akocakaya.currency.boundary.*" />
+          <option name="PATTERN" value="com.akocakaya.currency.boundary.CurrencyController" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="currencyapi" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.akocakaya.currency.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.akocakaya.currency.boundary.CurrencyControllerTest" />
+      <option name="PACKAGE_NAME" value="com.akocakaya.currency.boundary" />
+      <option name="MAIN_CLASS_NAME" value="com.akocakaya.currency.boundary.CurrencyServiceTest" />
       <option name="METHOD_NAME" value="is_connection_OK" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -483,18 +475,18 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="CurrencyControllerTest.should_return_currencies" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+    <configuration name="CurrencyServiceTest.should_return_currencies" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.akocakaya.currency.boundary.*" />
+          <option name="PATTERN" value="com.akocakaya.currency.boundary.CurrencyController" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="currencyapi" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.akocakaya.currency.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.akocakaya.currency.boundary.CurrencyControllerTest" />
+      <option name="PACKAGE_NAME" value="com.akocakaya.currency.boundary" />
+      <option name="MAIN_CLASS_NAME" value="com.akocakaya.currency.boundary.CurrencyServiceTest" />
       <option name="METHOD_NAME" value="should_return_currencies" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -508,18 +500,18 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="CurrencyControllerTest.should_return_currency" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CurrencyServiceTest.should_return_currency" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.akocakaya.currency.boundary.*" />
+          <option name="PATTERN" value="com.akocakaya.currency.boundary.CurrencyController" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="currencyapi" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.akocakaya.currency.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.akocakaya.currency.boundary.CurrencyControllerTest" />
+      <option name="PACKAGE_NAME" value="com.akocakaya.currency.boundary" />
+      <option name="MAIN_CLASS_NAME" value="com.akocakaya.currency.boundary.CurrencyServiceTest" />
       <option name="METHOD_NAME" value="should_return_currency" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -601,16 +593,16 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.App" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CurrencyControllerTest.should_return_currencies" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CurrencyControllerTest.is_connection_OK" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CurrencyControllerTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CurrencyControllerTest.should_return_currency" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CurrencyServiceTest.should_return_currencies" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CurrencyServiceTest.is_connection_OK" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CurrencyServiceTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CurrencyServiceTest.should_return_currency" />
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CurrencyControllerTest.should_return_currency" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CurrencyControllerTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CurrencyControllerTest.is_connection_OK" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CurrencyServiceTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CurrencyServiceTest.should_return_currency" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CurrencyServiceTest.is_connection_OK" />
       </list>
     </recent_temporary>
   </component>
@@ -629,7 +621,7 @@
       <updated>1533901667101</updated>
       <workItem from="1533901670640" duration="8908000" />
       <workItem from="1534161429400" duration="479000" />
-      <workItem from="1534312014709" duration="11800000" />
+      <workItem from="1534312014709" duration="12330000" />
     </task>
     <servers />
   </component>
@@ -661,15 +653,16 @@
     <history-entry file="CurrencyServiceTest - 2018.08.15 at 16h 07m 49s.xml">
       <configuration name="CurrencyServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CurrencyServiceTest_should_return_currencies - 2018.08.15 at 15h 46m 23s.xml">
-      <configuration name="CurrencyServiceTest.should_return_currencies" configurationId="JUnit" />
+    <history-entry file="CurrencyServiceTest_should_return_currency - 2018.08.15 at 16h 49m 41s.xml">
+      <configuration name="CurrencyServiceTest.should_return_currency" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33686000" />
+    <option name="totallyTimeSpent" value="34216000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -687,11 +680,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -712,14 +705,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/akocakaya/config/CurrencyList.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
@@ -1097,19 +1082,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/akocakaya/config/CurrencyList.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/akocakaya/currency/entity/TarihDate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/akocakaya/currency/control/DateFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="119">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1123,39 +1102,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/akocakaya/currency/entity/TarihDate.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/akocakaya/currency/control/DateFormatter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/akocakaya/currency/boundary/CurrencyControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/akocakaya/config/CurrencyList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="459">
+          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/akocakaya/currency/control/CurrencyService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        <state relative-caret-position="85">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/akocakaya/currency/boundary/CurrencyController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        <state relative-caret-position="408">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/akocakaya/currency/boundary/CurrencyServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

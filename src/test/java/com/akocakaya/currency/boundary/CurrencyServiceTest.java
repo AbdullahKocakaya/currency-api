@@ -2,7 +2,6 @@ package com.akocakaya.currency.boundary;
 
 import com.akocakaya.App;
 import com.akocakaya.currency.control.CurrencyService;
-import com.akocakaya.currency.control.DateFormatter;
 import com.akocakaya.currency.entity.Currency;
 import org.junit.Assert;
 import org.junit.Test;
@@ -45,7 +44,7 @@ public class CurrencyServiceTest {
         Assert.assertEquals(20, today.size());
     }
 
-       @Test
+    @Test
     public void should_return_currency() {
         Currency currency = currencyService.getCurrency("EUR", "201808/08082018");
 
