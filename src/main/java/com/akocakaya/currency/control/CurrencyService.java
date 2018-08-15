@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-public class CurrencyController {
+public class CurrencyService {
 
     @Inject
     private CurrencyList currencyList;

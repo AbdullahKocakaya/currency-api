@@ -13,8 +13,4 @@ public class TarihDate {
     public List<Currency> getCurrencies() {
         return currencies;
     }
-
-    public void setCurrencies(List<Currency> currencies) {
-        this.currencies = currencies;
-    }
 }
