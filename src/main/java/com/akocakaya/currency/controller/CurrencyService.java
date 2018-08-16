@@ -16,12 +16,6 @@ public class CurrencyService {
     @Inject
     private CurrencyList currencyList;
 
-    private RestTemplate restTemplate;
-
-    public CurrencyService(RestTemplateBuilder restTemplateBuilder) {
-        this.restTemplate = restTemplateBuilder.build();
-    }
-
     public Currency getCurrency(String currencyCode, String date) {
         return currencyList.getCurrencyHashMap(date).get(currencyCode);
     }

@@ -18,15 +18,13 @@ public class DateFormatter {
             date = yesterday();
         }
 
-        Date date1 = null;
         try {
-            date1 = dateFormat.parse(date);
+            return new SimpleDateFormat("yyyyMM/ddMMyyyy")
+                        .format(new SimpleDateFormat("yyyy-dd-MM")
+                        .parse(date));
         } catch (ParseException e) {
-            e.printStackTrace();
+            return e.getMessage();
         }
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyyMM/ddMMyyyy");
-
-        return simpleDateFormat.format(date1);
     }
 
     private String yesterday() {

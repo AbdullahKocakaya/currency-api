@@ -2,7 +2,9 @@ package com.akocakaya.config;
 
 import com.akocakaya.currency.entity.Currency;
 import com.akocakaya.currency.entity.TarihDate;
+import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.web.client.RestTemplate;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
@@ -14,6 +16,12 @@ import java.util.HashMap;
 
 @Configuration
 public class CurrencyList {
+
+    private RestTemplate restTemplate;
+
+    public CurrencyList(RestTemplateBuilder restTemplateBuilder) {
+        this.restTemplate = restTemplateBuilder.build();
+    }
 
     public HashMap<String, Currency> getCurrencyHashMap(String date) {
 
