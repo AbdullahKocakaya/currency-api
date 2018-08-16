@@ -1,4 +1,4 @@
-package com.akocakaya.currency.control;
+package com.akocakaya.currency.controller;
 
 import org.springframework.stereotype.Service;
 

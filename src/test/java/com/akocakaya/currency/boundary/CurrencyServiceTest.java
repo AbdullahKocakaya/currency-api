@@ -1,15 +1,25 @@
 package com.akocakaya.currency.boundary;
 
 import com.akocakaya.App;
-import com.akocakaya.currency.control.CurrencyService;
+import com.akocakaya.config.CurrencyList;
+import com.akocakaya.currency.controller.CurrencyService;
 import com.akocakaya.currency.entity.Currency;
+import com.akocakaya.currency.entity.TarihDate;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.web.client.RestClientTest;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.test.web.client.MockRestServiceServer;
+import org.springframework.test.web.client.RequestMatcher;
+import org.springframework.test.web.client.ResponseCreator;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;
@@ -17,11 +27,39 @@ import java.net.URL;
 import java.util.List;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = App.class)
+//@SpringBootTest(classes = App.class)
+@RestClientTest(CurrencyService.class)
 public class CurrencyServiceTest {
 
     @Autowired
     private CurrencyService currencyService;
+
+    @Autowired
+    private MockRestServiceServer server;
+
+    @Before
+    public void setUp() throws IOException {
+        String xml =
+                "<Tarih_Date Tarih=\"22.06.2018\" Date=\"06/22/2018\"  Bulten_No=\"2018/120\" >" +
+                "<Currency CrossOrder=\"0\" Kod=\"USD\" CurrencyCode=\"USD\">" +
+                "   <Unit>1</Unit>" +
+                "   <Isim>ABD DOLARI</Isim>" +
+                "   <CurrencyName>US DOLLAR</CurrencyName>" +
+                "   <ForexBuying>4.7077</ForexBuying>" +
+                "   <ForexSelling>4.7162</ForexSelling>" +
+                "   <BanknoteBuying>4.7044</BanknoteBuying>" +
+                "   <BanknoteSelling>4.7233</BanknoteSelling>" +
+                "   <CrossRateUSD/>" +
+                "   <CrossRateOther/>" +
+                "</Currency>" +
+                "</Tarih_Date>";
+
+        XmlMapper mapper = new XmlMapper();
+
+        Currency currency = mapper.readValue(xml, Currency.class);
+
+        this.server.expect((RequestMatcher) currencyService.getCurrencies("201808/08082018")).andRespond((ResponseCreator) currency);
+    }
 
     @Test
     public void is_connection_OK() throws IOException {

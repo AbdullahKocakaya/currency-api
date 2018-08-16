@@ -1,7 +1,7 @@
 package com.akocakaya.currency.boundary;
 
-import com.akocakaya.currency.control.CurrencyService;
-import com.akocakaya.currency.control.DateFormatter;
+import com.akocakaya.currency.controller.CurrencyService;
+import com.akocakaya.currency.controller.DateFormatter;
 import com.akocakaya.currency.entity.Currency;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
