@@ -11,8 +11,6 @@ import java.util.Date;
 @Service
 public class DateFormatter {
 
-    private DateFormat dateFormat = new SimpleDateFormat("yyyy-dd-MM");
-
     public String dateFormatter(String date) {
         if (date.equals("today")) {
             date = yesterday();
@@ -30,6 +28,6 @@ public class DateFormatter {
     private String yesterday() {
         final Calendar calendar = Calendar.getInstance();
         calendar.add(Calendar.DATE, -1);
-        return dateFormat.format(calendar.getTime());
+        return new SimpleDateFormat("yyyy-dd-MM").format(calendar.getTime());
     }
 }
