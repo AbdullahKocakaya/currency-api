@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1d212f5f-5f8b-4805-ad73-b1ad0639a9a8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/akocakaya/currency/controller/DateFormatter.java" afterPath="$PROJECT_DIR$/src/main/java/com/akocakaya/currency/controller/DateFormatter.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/akocakaya/currency/boundary/CurrencyServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/akocakaya/currency/boundary/CurrencyServiceTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CurrencyServiceTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CurrencyServiceTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/akocakaya/currency/boundary/CurrencyServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="105" column="1" lean-forward="true" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
+            <state relative-caret-position="127">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,8 +51,8 @@
       <file leaf-file-name="Currency.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/akocakaya/currency/entity/Currency.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+            <state relative-caret-position="459">
+              <caret line="31" column="25" lean-forward="false" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -71,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DateFormatter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DateFormatter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/akocakaya/currency/controller/DateFormatter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="30" column="4" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+            <state relative-caret-position="306">
+              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -143,8 +143,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/akocakaya/currency/controller/CurrencyService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/akocakaya/config/CurrencyList.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/akocakaya/currency/boundary/CurrencyServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/akocakaya/currency/controller/DateFormatter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/akocakaya/currency/boundary/CurrencyServiceTest.java" />
       </list>
     </option>
   </component>
@@ -198,6 +198,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -348,8 +350,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="AndroidView" />
     </panes>
@@ -393,7 +393,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.App">
+  <component name="RunManager" selected="JUnit.CurrencyServiceTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -615,10 +615,10 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CurrencyServiceTest.test" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CurrencyServiceTest.should_return_currency" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CurrencyServiceTest.is_connection_OK" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CurrencyServiceTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CurrencyServiceTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CurrencyServiceTest.test" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CurrencyServiceTest.should_return_currency" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CurrencyServiceTest.is_connection_OK" />
       </list>
     </recent_temporary>
   </component>
@@ -639,28 +639,20 @@
       <workItem from="1534161429400" duration="479000" />
       <workItem from="1534312014709" duration="16157000" />
       <workItem from="1534404054494" duration="7005000" />
-      <workItem from="1534488024301" duration="1177000" />
+      <workItem from="1534488024301" duration="3409000" />
+      <workItem from="1535350716427" duration="3738000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CurrencyServiceTest - 2018.08.16 at 10h 34m 28s.xml">
+    <history-entry file="CurrencyServiceTest - 2018.08.27 at 09h 48m 21s.xml">
       <configuration name="CurrencyServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CurrencyServiceTest_is_connection_OK - 2018.08.16 at 10h 34m 57s.xml">
-      <configuration name="CurrencyServiceTest.is_connection_OK" configurationId="JUnit" />
+    <history-entry file="CurrencyServiceTest - 2018.08.27 at 10h 50m 19s.xml">
+      <configuration name="CurrencyServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CurrencyServiceTest_should_return_currencies - 2018.08.16 at 10h 35m 22s.xml">
-      <configuration name="CurrencyServiceTest.should_return_currencies" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CurrencyServiceTest_should_return_currency - 2018.08.16 at 10h 36m 25s.xml">
-      <configuration name="CurrencyServiceTest.should_return_currency" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CurrencyServiceTest_test - 2018.08.16 at 10h 42m 24s.xml">
-      <configuration name="CurrencyServiceTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CurrencyServiceTest_test - 2018.08.16 at 10h 42m 42s.xml">
-      <configuration name="CurrencyServiceTest.test" configurationId="JUnit" />
+    <history-entry file="CurrencyServiceTest - 2018.08.27 at 10h 50m 30s.xml">
+      <configuration name="CurrencyServiceTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CurrencyServiceTest_test - 2018.08.16 at 10h 44m 05s.xml">
       <configuration name="CurrencyServiceTest.test" configurationId="JUnit" />
@@ -674,9 +666,18 @@
     <history-entry file="CurrencyServiceTest_test - 2018.08.16 at 10h 48m 03s.xml">
       <configuration name="CurrencyServiceTest.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CurrencyServiceTest_test - 2018.08.27 at 09h 46m 27s.xml">
+      <configuration name="CurrencyServiceTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CurrencyServiceTest_test - 2018.08.27 at 09h 49m 10s.xml">
+      <configuration name="CurrencyServiceTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CurrencyServiceTest_test - 2018.08.27 at 09h 49m 29s.xml">
+      <configuration name="CurrencyServiceTest.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46225000" />
+    <option name="totallyTimeSpent" value="52195000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
@@ -698,11 +699,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23987207" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1089,14 +1090,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/akocakaya/config/CurrencyList.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/akocakaya/currency/controller/CurrencyService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="e#682#683#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-          </folding>
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/akocakaya/currency/controller/DateFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1110,19 +1116,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/akocakaya/currency/entity/Currency.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+        <state relative-caret-position="459">
+          <caret line="31" column="25" lean-forward="false" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/akocakaya/currency/boundary/CurrencyServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="105" column="1" lean-forward="true" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1134,19 +1130,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/akocakaya/currency/controller/CurrencyService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/akocakaya/config/CurrencyList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
+          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/akocakaya/currency/controller/DateFormatter.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/akocakaya/currency/boundary/CurrencyServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="30" column="4" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="127">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
