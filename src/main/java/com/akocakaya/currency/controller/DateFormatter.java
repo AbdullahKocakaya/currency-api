@@ -2,7 +2,6 @@ package com.akocakaya.currency.controller;
 
 import org.springframework.stereotype.Service;
 
-import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -12,7 +11,6 @@ import java.util.Date;
 public class DateFormatter {
 
     public String dateFormatter(String date) {
-        System.out.println("++");
         if (date.equals("today") || date.equals(new SimpleDateFormat("yyyy-dd-MM").format(new Date()))) {
             date = yesterday();
         }
@@ -37,7 +35,7 @@ public class DateFormatter {
             e.printStackTrace();
         }
 
-        while(true) {
+        while (true) {
             if (calendar.get(Calendar.DAY_OF_WEEK) == Calendar.SUNDAY || calendar.get(Calendar.DAY_OF_WEEK) == Calendar.SATURDAY)
                 calendar.add(Calendar.DATE, -1);
             else break;
