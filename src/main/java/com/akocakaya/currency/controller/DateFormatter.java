@@ -12,7 +12,8 @@ import java.util.Date;
 public class DateFormatter {
 
     public String dateFormatter(String date) {
-        if (date.equals("today")) {
+        System.out.println("++");
+        if (date.equals("today") || date.equals(new SimpleDateFormat("yyyy-dd-MM").format(new Date()))) {
             date = yesterday();
         }
 
